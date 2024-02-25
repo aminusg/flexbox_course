@@ -24,10 +24,10 @@
             justify-content: space-between; 
             margin: 10px;
         }
-        .card .featured {
+        .card.featured {
             flex: auto;
         }
-        .card .associated {
+        .card.associated {
             flex: initial;
         }
         .container .card .content {
@@ -44,26 +44,26 @@
             margin: 0;
         }
         .container .card .btn-g {
+            align-items: center;
             display: flex;
+            height: 100%;
         }
         .container .card .btn-g .button {
             font-size: 2em;
-            text-align: center;
+            height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            
-            width: 45px;
-            height: 100% px;
-
+            width: 42px;
         }
         .container .card .btn-g .button:hover {
             background-color: rgb(90, 90, 88);
             transition: cubic-bezier(0.23, 1, 0.320, 1);
-
+            
 }
         .container .card .btn-g .button a {
             color:orange;
+            cursor: pointer;
             text-decoration: none;
         }
         .container .card .btn-g .button:hover a {
